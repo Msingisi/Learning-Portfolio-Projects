@@ -46,10 +46,4 @@ The goal of this project is to predict the average price of avocados in the Unit
 - Organic avocados tend to be more expensive than conventional ones.
 - Sales volume does not always predict price changes.
 
-## Next Steps
-- Incorporate external data like weather and economic indicators to improve price prediction.
-- Test different machine learning models to forecast future prices.
-- Further investigate why `TotalBags` and `TotalVolume` mismatches exist.
-
-This README provides a high-level summary of the avocado price analysis, including key insights and next steps for further improvement.
 
