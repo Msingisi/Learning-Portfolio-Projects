@@ -47,47 +47,34 @@ After evaluating performance on the **training set**, the top 3 models were sele
 ### RandomForest Evaluation Plots
 ![confusion_matrix](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/Random%20Forest%20Confusion%20Matrix.png)
 
-![roc_curve not found]
+![roc_curve](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/Random%20Forest%20ROC%20curve.png)
 
-![pr_curve not found]
+![pr_curve](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/Random%20Forest%20PR%20%20curve.png)
 
 ### XGBoost Evaluation Plots
-![confusion_matrix not found]
+![confusion_matrix](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/XGBoost%20%20Confusion%20Matrix.png)
 
-![roc_curve not found]
+![roc_curve](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/XGBoost%20%20ROC%20curve.png)
 
-![pr_curve not found]
+![pr_curve](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/XGBoost%20%20PR%20%20curve.png)
 
 ### GradientBoosting Evaluation Plots
-![confusion_matrix not found]
+![confusion_matrix](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/GradientBoosting%20Confusion%20Matrix.png)
 
-![roc_curve not found]
+![roc_curve](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/GradientBoosting%20ROC%20curve.png)
 
-![pr_curve not found]
+![pr_curve](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/GradientBoosting%20PR%20%20curve.png
+)
 
 
 ---
 
-## ✅ Final Recommendation
+## Final Recommendation
 
 After comparing model performance on **Accuracy**, **F1-Score**, **ROC AUC**, and **PR AUC**, we recommend using:
 
-### 🏆 **XGBoost Classifier** as the final model
+### **XGBoost Classifier** as the final model
 
 Although it has slightly lower accuracy, it offers the **best performance for capturing defaults (Class 1)** — which is often the most critical class in credit risk scenarios.
 
 ---
-
-## 📂 Artifacts
-
-- All trained models are saved in the `models/` directory.
-- Evaluation plots (Confusion Matrix, ROC, PR Curve) are stored in the `plots/` folder.
-- Evaluation metrics are logged in `metrics_test.csv` for test set results and `metrics_train.csv` for training set results.
-
----
-
-## 📌 Next Steps
-
-- Deploy the selected model using a Flask or FastAPI backend
-- Monitor model drift or retrain with updated data periodically
-- Enhance explainability using SHAP or LIME for interpretability
