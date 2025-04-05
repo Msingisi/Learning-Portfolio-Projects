@@ -45,7 +45,7 @@ After evaluating performance on the **training set**, the top 3 models were sele
 
 ## 📊 Plot Analysis
 ### RandomForest Evaluation Plots
-![confusion_matrix not found]
+![confusion_matrix](https://github.com/Msingisi/Learning-Portfolio-Projects/blob/main/Python%20Projects/Classification/give_me_some_credit/Random%20Forest%20Confusion%20Matrix.png)
 
 ![roc_curve not found]
 
